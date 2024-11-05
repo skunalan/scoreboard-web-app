@@ -5,14 +5,53 @@
 }
 
 body {
-  background-color: green;
   background-image: url(assets/field.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  min-height: 100vh;
 }
 
-section {
-  min-height: 100vh;
+.main-header {
+  background: -webkit-linear-gradient(rgb(246, 255, 0) 70%, rgb(255, 43, 43) 83%, rgba(255,0,0,1) 83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  font-weight: bold;
+  padding-top: 200px;
+}
+
+.score {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+#team-home-score {
+  border: 5px solid red;
+  border-radius: 10px;
+}
+
+#team-away-score {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#revert-button {
+  margin-top: 100px;
+}
+
+.footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: darkred;
+}
+
+.footer a:hover {
+  color: darkblue;
 }
