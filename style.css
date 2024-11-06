@@ -37,6 +37,10 @@ body {
   border-radius: 10px;
 }
 
+#reset-button {
+  margin-top: 100px;
+}
+
 .footer {
   position:fixed;
   bottom: 0;
